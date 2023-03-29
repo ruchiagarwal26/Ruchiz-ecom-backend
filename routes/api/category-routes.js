@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
   })
     .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
-        console.log(err);
+        console.log("there is an error ", err);
     })
 
 });
@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
   })
     .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
-        console.log(err);
+        console.log("there is an error ", err);
     })
 
 });
@@ -46,7 +46,7 @@ router.post('/', (req, res) => {
   })
     .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
-      console.log(err);
+      console.log("there is an error ", err);
   })
 
   });
@@ -60,7 +60,7 @@ router.put('/:id', (req, res) => {
   })
   .then(dbCategoryData => res.json(dbCategoryData))
   .catch(err => {
-    console.log(err);
+    console.log("there is an error ", err);
 })
 });
 
@@ -73,7 +73,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(dbCategoryData => res.json(dbCategoryData))
   .catch(err => {
-    console.log(err);
+    console.log("there is an error ", err);
 })
 });
 

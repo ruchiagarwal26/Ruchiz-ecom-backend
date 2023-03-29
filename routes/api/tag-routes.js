@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
   })
     .then(dbTagData => res.json(dbTagData))
     .catch(err => {
-      res.json(err)
+      res.json("there is an error ", err)
     });
 });
 
@@ -35,7 +35,7 @@ router.get('/:id', (req, res) => {
   })
     .then(dbTagData => res.json(dbTagData))
     .catch(err => {
-      res.json(err)
+      res.json("there is an error ", err)
     });
 });
 
@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
   })
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
-    res.json(err)
+    res.json("there is an error ", err)
   });
 });
 
@@ -63,7 +63,7 @@ router.put('/:id', (req, res) => {
   })
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
-    res.json(err)
+    res.json("there is an error ", err)
   });
 });
 
@@ -76,7 +76,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(dbTagData => res.json(dbTagData))
   .catch(err => {
-    res.json(err)
+    res.json("there is an error ", err)
   });
 });
 
