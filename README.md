@@ -1,22 +1,30 @@
 # 13 Object-Relational Mapping (ORM): E-Commerce Back End
 
-## Your Task
+## Solution :
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
+Github link : https://github.com/ruchiagarwal26/Ruchiz-ecom-backend
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+Insomnia scrrenshot:
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+Images to show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
-## User Story
+In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products."
+![image](https://user-images.githubusercontent.com/115508901/228685170-8feb7f97-b5a6-402a-bdeb-2b03683cf8fe.png)
 
-```md
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
+In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”
+![image](https://user-images.githubusercontent.com/115508901/228685242-d2376e48-62ab-4b4a-b7a1-cafe01c875ac.png)
 
-## Acceptance Criteria
+In Insomnia, the user tests “CREATE Category,” 
+![image](https://user-images.githubusercontent.com/115508901/228685295-af886158-69a2-4931-a2ae-41c389838a93.png)
+
+In Insomnia, the user tests “UPDATE Category.”
+![image](https://user-images.githubusercontent.com/115508901/228685343-87d00d75-7bef-4091-b3f2-98a518e01ed9.png)
+
+In Insomnia, the user tests “DELETE Category by ID"
+![image](https://user-images.githubusercontent.com/115508901/228685406-3b73be4d-f469-41e1-9de4-c29934578af1.png)
+
+
+## Functionalities
 
 ```md
 GIVEN a functional Express.js API
@@ -32,21 +40,7 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Mock-Up
 
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
-
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
 ## Getting Started
 
