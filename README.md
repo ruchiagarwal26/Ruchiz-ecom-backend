@@ -25,7 +25,7 @@ In Insomnia, the user tests “UPDATE Category.”
 In Insomnia, the user tests “DELETE Category by ID"
 ![image](https://user-images.githubusercontent.com/115508901/228685406-3b73be4d-f469-41e1-9de4-c29934578af1.png)
 
-
+```md
 ## Functionalities
 
 With the help of Express.js API and sequilize libraries, the user can:
@@ -53,3 +53,4 @@ With the help of Express.js API and sequilize libraries, the user can:
 > The foreign and primary keys and table constraints are set up to avoid any bad commands
 
 
+```
