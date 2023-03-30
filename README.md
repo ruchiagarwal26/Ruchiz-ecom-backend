@@ -4,7 +4,7 @@
 
 Github link : https://github.com/ruchiagarwal26/Ruchiz-ecom-backend
 
-Video Link : https://drive.google.com/file/d/1XQ83ypvWsI-b_IOOaqSOYoXiCtgjCrsP/view
+Video Link : chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/abeda505-3afc-48f0-yb76-0f7cff1a8a88
 
 Insomnia scrrenshot:
 
@@ -29,16 +29,27 @@ In Insomnia, the user tests “DELETE Category by ID"
 ## Functionalities
 
 With the help of Express.js API and sequilize libraries, the user can:
+
 > Insert initial data in tables that are defined at MySql server
+
 > The connection information is restricted in .env files with no access to other users
+
 > The API is set up for each table
+
 > The user can run below operations:
+
 >    GET : to view all content in tables : Product, Category and Tags
+
 >    GET : view contents of above tables based on id
+
 >    POST : create new content in above tables
+
 >    PUT : Update data in above tables
+
 >    DELETE : delete data based on id from the above tables
+
 > All routes are displayed in the code
+
 > The foreign and primary keys and table constraints are set up to avoid any bad commands
 
 
