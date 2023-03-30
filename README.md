@@ -6,6 +6,10 @@ Github link : https://github.com/ruchiagarwal26/Ruchiz-ecom-backend
 
 Video Link : chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/abeda505-3afc-48f0-yb76-0f7cff1a8a88
 
+
+https://user-images.githubusercontent.com/115508901/228701254-5a0964ae-efc6-40e3-8e45-f858b6e0b3a8.mp4
+
+
 Insomnia scrrenshot:
 
 Images to show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
